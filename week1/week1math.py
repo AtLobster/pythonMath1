@@ -13,7 +13,7 @@ print(f'{np.radians(d)} rad\n')
 A = np.array([30, 45, 60, 90, 120, 135, 150, 180, 270, 360])
 
 for i in A:
-    print(f"{np.array(i)} deg  I {np.radians(i): .3f} rad")
+    print(f"{np.array(i):<3} deg  I {np.radians(i): .3f} rad")
 
 lävistäjä = 6.4
 suhde_leveys = 3
